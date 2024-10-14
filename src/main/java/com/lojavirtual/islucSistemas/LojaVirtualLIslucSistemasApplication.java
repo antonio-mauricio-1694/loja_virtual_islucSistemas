@@ -1,0 +1,13 @@
+package com.lojavirtual.islucSistemas;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class LojaVirtualLIslucSistemasApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LojaVirtualLIslucSistemasApplication.class, args);
+	}
+
+}
