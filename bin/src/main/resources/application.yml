@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Loja_virtualL_islucSistemas
+  datasource:
+    url: jdbc:postgresql://localhost:5432/loja_virtual_islucSistemas
+    username: postgres
+    password: isluc
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  sql:
+    init:
+      platform: postgres
